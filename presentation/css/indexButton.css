@@ -1,0 +1,49 @@
+body {
+	width: 500px;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+	border: solid;
+	width: 500px;
+}
+
+#buttonBox { 
+	width: 500px;
+	position: absolute;
+}
+			
+#button {
+	width: 500px;
+}
+
+#buttonBox #button {
+	width: 500px;
+	margin: 0; 
+	padding: 0;
+}
+						
+#buttonBox a {
+	position: absolute;
+	border: 3px solid black;
+	padding: 1em;
+	height: 350px;
+	width: 350px;
+	display: none;
+}
+				
+#linkConsequence {
+			position: absolute;
+			border: 2px solid black;
+			width: 25%;
+			height: 25%;
+			top: 56px;
+			left: 56px;
+			text-align: right;
+			display: none;
+}
+			
+#buttonBox:hover a{
+	display: block;
+}

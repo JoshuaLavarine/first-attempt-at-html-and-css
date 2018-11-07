@@ -1,0 +1,120 @@
+body {
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+	background-color: #FFECDF;
+	font-family: serif;
+	text-align: justify;
+}
+
+h1 {
+	color: red;
+	font-family: sans-serif;
+	border: solid;
+	text-align: center;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+legend {
+	bold ;
+	font-size: 16px;
+}
+
+.brother1, .brother2, .parent1, .parent2, #littleRebel, #survey {
+	float: left;
+	margin: 4.25%;
+}
+
+.brother1, .brother2, .parent1, .parent2 {
+	height: 280px;
+	width: 100px;
+	padding: 6px;
+}
+
+.brother1 {
+	border: double;	
+	background-color: #B4D5E8;
+	display: block;
+	width: 40%;
+}
+
+.brother2 {
+	border: double;
+	background-color: #8198A5;
+	display: block;
+	width: 40%;
+
+}
+
+.parent1 {
+	border: double;
+	background-color: #ADC6D5;
+	display: block;
+	width: 40%;
+}
+
+.parent2 {
+	border: double;
+	background-color: #A1B7C4;
+	width: 40%;
+	display: block;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.underlineCenter{
+	text-decoration: underline;
+	text-align: center;
+}
+
+#familyPhoto {
+	height: 550px;
+	width: 550px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2px;
+}
+
+#passionate {
+	border: double;
+	background-color: #B9DDF3;
+	text-align: center;
+	float: left;
+}
+
+#centerText {
+	text-align: center;
+}
+
+#survey {
+	background-color: #AAAAAA;
+	border: double;
+	display: block;
+	width: 90%;
+}
+
+#littleRebel {
+	background-color: lightgrey;
+	border: double;
+}
+
+#author {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+#oneFake, #survey, #twoFake {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+/*#wholeFamily {
+	border: solid;
+}
